@@ -5,21 +5,21 @@ exp- to print number from 0 to 9
 for(let i=0; i<10;i++){
 console.log(i)
 }
-4- variable is container to store the different types of data.
-5- var name = "Anshuman"
+4- variable is container to store the different data types.
+5- var name = "Anshuman";
 consoled.log(name)
 6- there are 2 types of data type-
-1- primitive data type (string, number,boolean,null,undefined,symbol)
+1- primitive data type (string, number,boolean,null,undefined,symbol,bigInt)
 2- non-primitive data type (object)
 
 7 - exp of unary operators- 
-1- if-else statement
+1- not operator
 2- type of
 
 8- function square (num){
 return num*num;
 }
-console.log(square(4))// 16
+console.log(parseInt(square(4)))// 16
 
 9- getElementsByClassName() return class object.
-10- object type variable used when we require multiple data type in a variable.
+10- object type variable used when we require multiple properties in a variable.
